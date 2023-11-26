@@ -1,0 +1,284 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "solve",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "solved",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x60806040526000805460ff19169055348015601957600080fd5b5060a0806100286000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063799320bb146037578063890d6908146057575b600080fd5b60005460439060ff1681565b604051901515815260200160405180910390f35b60686000805460ff19166001179055565b00fea26469706673582212207557f3d6441d60b5bb48308ddaba21fcced4300b335abb59e00a9e6c1110de9c64736f6c63430008140033",
+    "sourceMap": "64:110:27:-:0;;;106:5;85:26;;-1:-1:-1;;85:26:27;;;64:110;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c8063799320bb146037578063890d6908146057575b600080fd5b60005460439060ff1681565b604051901515815260200160405180910390f35b60686000805460ff19166001179055565b00fea26469706673582212207557f3d6441d60b5bb48308ddaba21fcced4300b335abb59e00a9e6c1110de9c64736f6c63430008140033",
+    "sourceMap": "64:110:27:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;85:26;;;;;;;;;;;;179:14:34;;172:22;154:41;;142:2;127:18;85:26:27;;;;;;;118:54;;152:6;:13;;-1:-1:-1;;152:13:27;161:4;152:13;;;118:54;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "solve()": "890d6908",
+    "solved()": "799320bb"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"solve\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"solved\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/hello/Hello.sol\":\"Hello\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=lib/openzeppelin-contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/hello/Hello.sol\":{\"keccak256\":\"0x86b6226175be485eb489b38837907e77f1902a328607fd258c6aed37190bac75\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://b9fba3d8b2675b9cfe38363bc1107a1de012c0b6050d28e45db7151d1a43c18a\",\"dweb:/ipfs/QmZaWX7tEnhpoiwZGem1G3hDouZaJj1yP2py7Z5mTjGkU5\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.20+commit.a1b79de6"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "solve"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "solved",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=lib/openzeppelin-contracts/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/hello/Hello.sol": "Hello"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/hello/Hello.sol": {
+        "keccak256": "0x86b6226175be485eb489b38837907e77f1902a328607fd258c6aed37190bac75",
+        "urls": [
+          "bzz-raw://b9fba3d8b2675b9cfe38363bc1107a1de012c0b6050d28e45db7151d1a43c18a",
+          "dweb:/ipfs/QmZaWX7tEnhpoiwZGem1G3hDouZaJj1yP2py7Z5mTjGkU5"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/hello/Hello.sol",
+    "id": 25838,
+    "exportedSymbols": {
+      "Hello": [
+        25837
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:136:27",
+    "nodes": [
+      {
+        "id": 25825,
+        "nodeType": "PragmaDirective",
+        "src": "39:23:27",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 25837,
+        "nodeType": "ContractDefinition",
+        "src": "64:110:27",
+        "nodes": [
+          {
+            "id": 25828,
+            "nodeType": "VariableDeclaration",
+            "src": "85:26:27",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "799320bb",
+            "mutability": "mutable",
+            "name": "solved",
+            "nameLocation": "97:6:27",
+            "scope": 25837,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 25826,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "85:4:27",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "value": {
+              "hexValue": "66616c7365",
+              "id": 25827,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "bool",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "106:5:27",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              },
+              "value": "false"
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 25836,
+            "nodeType": "FunctionDefinition",
+            "src": "118:54:27",
+            "nodes": [],
+            "body": {
+              "id": 25835,
+              "nodeType": "Block",
+              "src": "142:30:27",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 25833,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 25831,
+                      "name": "solved",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25828,
+                      "src": "152:6:27",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "hexValue": "74727565",
+                      "id": 25832,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "161:4:27",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "src": "152:13:27",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 25834,
+                  "nodeType": "ExpressionStatement",
+                  "src": "152:13:27"
+                }
+              ]
+            },
+            "functionSelector": "890d6908",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "solve",
+            "nameLocation": "127:5:27",
+            "parameters": {
+              "id": 25829,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "132:2:27"
+            },
+            "returnParameters": {
+              "id": 25830,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "142:0:27"
+            },
+            "scope": 25837,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Hello",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          25837
+        ],
+        "name": "Hello",
+        "nameLocation": "73:5:27",
+        "scope": 25838,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 27
+}

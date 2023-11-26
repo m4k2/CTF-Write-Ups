@@ -1,0 +1,478 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "hello",
+      "outputs": [
+        {
+          "internalType": "contract Hello",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "isSolved",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5060405161001d9061005f565b604051809103906000f080158015610039573d6000803e3d6000fd5b50600080546001600160a01b0319166001600160a01b039290921691909117905561006b565b60c8806101d983390190565b61015f8061007a6000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806319ff1d211461003b57806364d98f6e1461006b575b600080fd5b60005461004e906001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b610073610083565b6040519015158152602001610062565b60008060009054906101000a90046001600160a01b03166001600160a01b031663799320bb6040518163ffffffff1660e01b8152600401602060405180830381865afa1580156100d7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906100fb9190610100565b905090565b60006020828403121561011257600080fd5b8151801515811461012257600080fd5b939250505056fea2646970667358221220a959a13e1dabbe41304f4676703066904a52bb0633eca45dd60f3fd19191199c64736f6c6343000814003360806040526000805460ff19169055348015601957600080fd5b5060a0806100286000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063799320bb146037578063890d6908146057575b600080fd5b60005460439060ff1681565b604051901515815260200160405180910390f35b60686000805460ff19166001179055565b00fea26469706673582212207557f3d6441d60b5bb48308ddaba21fcced4300b335abb59e00a9e6c1110de9c64736f6c63430008140033",
+    "sourceMap": "48:189:28:-:0;;;94:50;;;;;;;;;;126:11;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;118:5:28;:19;;-1:-1:-1;;;;;;118:19:28;-1:-1:-1;;;;;118:19:28;;;;;;;;;;48:189;;;;;;;;;;:::o;:::-;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806319ff1d211461003b57806364d98f6e1461006b575b600080fd5b60005461004e906001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b610073610083565b6040519015158152602001610062565b60008060009054906101000a90046001600160a01b03166001600160a01b031663799320bb6040518163ffffffff1660e01b8152600401602060405180830381865afa1580156100d7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906100fb9190610100565b905090565b60006020828403121561011257600080fd5b8151801515811461012257600080fd5b939250505056fea2646970667358221220a959a13e1dabbe41304f4676703066904a52bb0633eca45dd60f3fd19191199c64736f6c63430008140033",
+    "sourceMap": "48:189:28:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;69:18;;;;;-1:-1:-1;;;;;69:18:28;;;;;;-1:-1:-1;;;;;193:32:34;;;175:51;;163:2;148:18;69::28;;;;;;;;150:85;;;:::i;:::-;;;402:14:34;;395:22;377:41;;365:2;350:18;150:85:28;237:187:34;150:85:28;191:4;214:5;;;;;;;;;-1:-1:-1;;;;;214:5:28;-1:-1:-1;;;;;214:12:28;;:14;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;207:21;;150:85;:::o;429:277:34:-;496:6;549:2;537:9;528:7;524:23;520:32;517:52;;;565:1;562;555:12;517:52;597:9;591:16;650:5;643:13;636:21;629:5;626:32;616:60;;672:1;669;662:12;616:60;695:5;429:277;-1:-1:-1;;;429:277:34:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "hello()": "19ff1d21",
+    "isSolved()": "64d98f6e"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"hello\",\"outputs\":[{\"internalType\":\"contract Hello\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"isSolved\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/hello/Setup.sol\":\"Setup\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=lib/openzeppelin-contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/hello/Hello.sol\":{\"keccak256\":\"0x86b6226175be485eb489b38837907e77f1902a328607fd258c6aed37190bac75\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://b9fba3d8b2675b9cfe38363bc1107a1de012c0b6050d28e45db7151d1a43c18a\",\"dweb:/ipfs/QmZaWX7tEnhpoiwZGem1G3hDouZaJj1yP2py7Z5mTjGkU5\"]},\"src/hello/Setup.sol\":{\"keccak256\":\"0x724cda265e68a160d5b76afd5ae619d33ac6f05990481c15fe674878b4e393c7\",\"urls\":[\"bzz-raw://c6372693fd8b17ef03bc85629026fb35f1c82ad598676e6eb8f44b97fbe172e4\",\"dweb:/ipfs/QmWTotPXbZBKwpsLwAHhCRYdhnVr4Em9gt5Ah6vq2KLnTZ\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.20+commit.a1b79de6"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "hello",
+          "outputs": [
+            {
+              "internalType": "contract Hello",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "isSolved",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=lib/openzeppelin-contracts/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/hello/Setup.sol": "Setup"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/hello/Hello.sol": {
+        "keccak256": "0x86b6226175be485eb489b38837907e77f1902a328607fd258c6aed37190bac75",
+        "urls": [
+          "bzz-raw://b9fba3d8b2675b9cfe38363bc1107a1de012c0b6050d28e45db7151d1a43c18a",
+          "dweb:/ipfs/QmZaWX7tEnhpoiwZGem1G3hDouZaJj1yP2py7Z5mTjGkU5"
+        ],
+        "license": "UNLICENSED"
+      },
+      "src/hello/Setup.sol": {
+        "keccak256": "0x724cda265e68a160d5b76afd5ae619d33ac6f05990481c15fe674878b4e393c7",
+        "urls": [
+          "bzz-raw://c6372693fd8b17ef03bc85629026fb35f1c82ad598676e6eb8f44b97fbe172e4",
+          "dweb:/ipfs/QmWTotPXbZBKwpsLwAHhCRYdhnVr4Em9gt5Ah6vq2KLnTZ"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/hello/Setup.sol",
+    "id": 25866,
+    "exportedSymbols": {
+      "Hello": [
+        25837
+      ],
+      "Setup": [
+        25865
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:237:28",
+    "nodes": [
+      {
+        "id": 25839,
+        "nodeType": "PragmaDirective",
+        "src": "0:23:28",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 25840,
+        "nodeType": "ImportDirective",
+        "src": "25:21:28",
+        "nodes": [],
+        "absolutePath": "src/hello/Hello.sol",
+        "file": "./Hello.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 25866,
+        "sourceUnit": 25838,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 25865,
+        "nodeType": "ContractDefinition",
+        "src": "48:189:28",
+        "nodes": [
+          {
+            "id": 25843,
+            "nodeType": "VariableDeclaration",
+            "src": "69:18:28",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "19ff1d21",
+            "mutability": "mutable",
+            "name": "hello",
+            "nameLocation": "82:5:28",
+            "scope": 25865,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_Hello_$25837",
+              "typeString": "contract Hello"
+            },
+            "typeName": {
+              "id": 25842,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 25841,
+                "name": "Hello",
+                "nameLocations": [
+                  "69:5:28"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 25837,
+                "src": "69:5:28"
+              },
+              "referencedDeclaration": 25837,
+              "src": "69:5:28",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Hello_$25837",
+                "typeString": "contract Hello"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 25854,
+            "nodeType": "FunctionDefinition",
+            "src": "94:50:28",
+            "nodes": [],
+            "body": {
+              "id": 25853,
+              "nodeType": "Block",
+              "src": "108:36:28",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 25851,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 25846,
+                      "name": "hello",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25843,
+                      "src": "118:5:28",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Hello_$25837",
+                        "typeString": "contract Hello"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 25849,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "126:9:28",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Hello_$25837_$",
+                          "typeString": "function () returns (contract Hello)"
+                        },
+                        "typeName": {
+                          "id": 25848,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 25847,
+                            "name": "Hello",
+                            "nameLocations": [
+                              "130:5:28"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 25837,
+                            "src": "130:5:28"
+                          },
+                          "referencedDeclaration": 25837,
+                          "src": "130:5:28",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Hello_$25837",
+                            "typeString": "contract Hello"
+                          }
+                        }
+                      },
+                      "id": 25850,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "126:11:28",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Hello_$25837",
+                        "typeString": "contract Hello"
+                      }
+                    },
+                    "src": "118:19:28",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Hello_$25837",
+                      "typeString": "contract Hello"
+                    }
+                  },
+                  "id": 25852,
+                  "nodeType": "ExpressionStatement",
+                  "src": "118:19:28"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 25844,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:2:28"
+            },
+            "returnParameters": {
+              "id": 25845,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "108:0:28"
+            },
+            "scope": 25865,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 25864,
+            "nodeType": "FunctionDefinition",
+            "src": "150:85:28",
+            "nodes": [],
+            "body": {
+              "id": 25863,
+              "nodeType": "Block",
+              "src": "197:38:28",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 25859,
+                        "name": "hello",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25843,
+                        "src": "214:5:28",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Hello_$25837",
+                          "typeString": "contract Hello"
+                        }
+                      },
+                      "id": 25860,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "220:6:28",
+                      "memberName": "solved",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 25828,
+                      "src": "214:12:28",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$__$returns$_t_bool_$",
+                        "typeString": "function () view external returns (bool)"
+                      }
+                    },
+                    "id": 25861,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "214:14:28",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 25858,
+                  "id": 25862,
+                  "nodeType": "Return",
+                  "src": "207:21:28"
+                }
+              ]
+            },
+            "functionSelector": "64d98f6e",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "isSolved",
+            "nameLocation": "159:8:28",
+            "parameters": {
+              "id": 25855,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "167:2:28"
+            },
+            "returnParameters": {
+              "id": 25858,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 25857,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25864,
+                  "src": "191:4:28",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 25856,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "191:4:28",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "190:6:28"
+            },
+            "scope": 25865,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Setup",
+        "contractDependencies": [
+          25837
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          25865
+        ],
+        "name": "Setup",
+        "nameLocation": "57:5:28",
+        "scope": 25866,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ]
+  },
+  "id": 28
+}
