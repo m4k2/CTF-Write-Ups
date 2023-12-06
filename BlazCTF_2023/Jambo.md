@@ -164,11 +164,10 @@ Jambo(target).revokeOwnership();
    Link to the solution script: [Solve Script](util/Jambo/Solve.s.sol)
 
 
-<p align="center">
 ![Thanks](util/img/giphy.gif)
-</p>
+
 
 <p align="center">
-Feel free to pose your questions here: [Twitter](https://twitter.com/0x_m4k2).
+Feel free to pose your questions here: https://twitter.com/0x_m4k2
 </p>
 
